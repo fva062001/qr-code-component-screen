@@ -1,10 +1,11 @@
 body{
+    margin: 0;
     background: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     overflow-y: hidden;
 }
 
@@ -19,7 +20,7 @@ body{
 
 .container img{
     display: block;
-    width:90%;
+    width:17rem;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -27,7 +28,7 @@ body{
 }
 
 .text{
-    width: 80%;
+    width: 19rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -45,8 +46,8 @@ body{
 @media screen and (min-width: 300px) and (max-width: 480px) {
     .container{
         margin: auto;
-        width:90%;
-        padding: 15px 0;
+        width:19rem;
+        padding: 1rem 0;
         margin: 0;
     }
 }
